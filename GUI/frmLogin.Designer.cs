@@ -57,6 +57,7 @@
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(36, 36);
             this.btnClose.TabIndex = 0;
+            this.btnClose.Paint += new System.Windows.Forms.PaintEventHandler(this.btnClose_Paint);
             // 
             // label2
             // 

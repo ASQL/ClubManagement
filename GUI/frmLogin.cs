@@ -42,5 +42,11 @@ namespace GUI
                 MessageBox.Show(ex.Message);
             }
         }
+
+        private void btnClose_Paint(object sender, PaintEventArgs e)
+        {
+            this.Close();
+            Application.Exit();
+        }
     }
 }
